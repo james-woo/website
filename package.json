@@ -2,7 +2,7 @@
   "name": "website",
   "version": "1.0.0",
   "description": "Website",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.12.3"
   },
