@@ -1,14 +1,23 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Website",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james-woo/website.git"
+  },
+  "author": "James",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.12.3"
-  }
+  "bugs": {
+    "url": "https://github.com/james-woo/website/issues"
+  },
+  "homepage": "https://github.com/james-woo/website"
 }
