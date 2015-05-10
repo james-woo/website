@@ -12,5 +12,9 @@ app.get('/', function(req, res, next){
     res.render('index')
 });
 
-server.listen(PORT);
+setInterval(function(){
+	http.get("http://jameswoo.herokuapp.com");
+}, 900000);
 
+server.listen(PORT);
+console.log("listening on port 8008");
