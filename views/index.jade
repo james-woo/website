@@ -1,6 +1,7 @@
 extends layout
 
 block content
+  #home
   navbar.navbar-default.navbar-fixed-top(role='navigation')
     .container-fluid
       .center-inner
@@ -8,25 +9,28 @@ block content
           .row
             h1.centered-text James Woo
           .row
-            h5.centered-text Tinkerer - Hard Worker - Avid Learner
+            h3.centered-text Tinkerer - Hard Worker - Avid Learner
           .row
-            .nav-wrapper
+            .nav-wrapper.a-anchor
               ul.nav.navbar-nav
                 li
-                  a(href='/') Home
+                  a#home-link(href='#') Home
                 li
-                  a(href='/#aboutme') About Me
+                  a#aboutme-link(href='#') About Me
                 li
-                  a(href='/#resume') Resume
+                  a#resume-link(href='#') Resume
                 li
-                  a(href='/#projects') Projects
+                  a#projects-link(href='#') Projects
 
   #aboutme.container-fluid
     include aboutme
+    br
   #resume.container-fluid
-      include resume
+    include resume
+    br
   #projects.container-fluid
     include projects
+    br
 
   footer.container.text-center
     .row

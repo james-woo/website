@@ -96,7 +96,7 @@ a {
 }
 
 #aboutme {
-  padding-top: 200px;
+  padding-top: 220px;
   width: 80%;
 }
 
@@ -120,12 +120,6 @@ a {
 }
 
 /* Experience */
-.experience [class*="row"] {
-  border-bottom: dotted 1px #ccc;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
 .experience h2 {
   margin-bottom: 0;
 }
@@ -160,20 +154,8 @@ a {
   }
 }
 
-@media screen and (min-width: 40em) {
-  .spotlight {
-    padding: 6em;
-    text-align: left;
-  }
-
-  .spotlight h1, .spotlight p {
-    text-align: left;
-  }
-
-}
-
-a {
-
+.a-anchor {
+  font-size: 18px;
 }
 
 h1 {
