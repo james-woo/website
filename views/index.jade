@@ -1,0 +1,38 @@
+extends layout
+
+block content
+  navbar.navbar-default.navbar-fixed-top(role='navigation')
+    .container-fluid
+      .center-inner
+        .navbar-header
+          .row
+            h1.centered-text James Woo
+          .row
+            h5.centered-text Tinkerer - Hard Worker - Avid Learner
+          .row
+            .nav-wrapper
+              ul.nav.navbar-nav
+                li
+                  a(href='/') Home
+                li
+                  a(href='/#aboutme') About Me
+                li
+                  a(href='/#resume') Resume
+                li
+                  a(href='/#projects') Projects
+
+  #aboutme.container-fluid
+    include aboutme
+  #resume.container-fluid
+      include resume
+  #projects.container-fluid
+    include projects
+
+  footer.container.text-center
+    .row
+      .col-lg-12
+        p Copyright &copy; James Woo <script>document.write(new Date().getFullYear())</script>
+      .col-lg-12
+        script document.write("This page was last modified on: " + document.lastModified +"");
+
+

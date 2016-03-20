@@ -1,0 +1,79 @@
+.text-center
+    .page-header
+        h2 Projects
+.container-fluid
+    .text-center
+        h3 Meals For The Moment
+    .row
+        .col-sm-6
+            img(src='/images/portfolio/mftm.png', width='100%')
+        .col-sm-6
+            a(href='http://mftm.herokuapp.com') http://mftm.herokuapp.com
+            p.
+                Meals For The Moment is a web application built using the MEAN stack for my Software Engineering Requirements course.
+                We receive a clients (student group) RFP, in which we create a requirements specification document. In addition to this, I have created
+                a web application to show as a demo to the client.
+
+                The application uses the user's location to determine local ingredients and provides recipes based on those ingredients.
+                Additionally, users are able to further refine their recommendations with the use of preferences.
+            p Future Implementations
+            ul
+                li Third party recipe database. Use a recipe database to provide real recipes.
+                li User functionality. Users could sign up and provide their own recipes, rate recipes, etc.
+            p.
+                Technologies involved: MongoDB, Express, AngularJS, Node.JS, MapBox, Heroku
+    .text-center
+        h3 Reported
+    .row
+        .col-sm-6
+            img(src='/images/portfolio/reported.png', width='100%')
+        .col-sm-6
+            a(href='reported.herokuapp.com') http://reported.herokuapp.com
+            p.
+                Reported is a community driven break-in and theft tracker in your area. Add reports to this map to inform others on recent events.
+                When you first load the website, it will ask you for your location. If you click "Allow", the map will pan to your area.
+                To use this application, click a point on the map where you would like to create a report. Add your name, email, and a short description of the incident. If you'd like, you can add an url to a photo for a better description.
+                Your data point will be displayed on the map for all others to see. Once the page reloads, your new data point will be displayed and the map will pan to it. If you'd like, you can take this moment to delete it.
+                Zoom in to view datapoints if they are shown in a cluster. Click on a datapoint to see information about it.
+            p Future Implementations
+            ul
+                li User accounts. Users would be able to view all their own points, delete and edit them.
+                li Alerts. Users could sign up for alerts for activities in their area
+                li Contact form. If anyone has information related to a reported point, they could send the original poster a message.
+                li Image upload. Users should be able to upload one (or more) photos to our server instead of having to use some other image hosting service.
+                li Improved Security. For example, nothing is stopping someone from adding a ton of fake datapoints with a denial of service attack. Additionally, forms are not currently checked for data integrity (e.g. adding a url to a non-existing photo)
+            p.
+                Technologies involved: MongoDB, Express, AngularJS, Node.JS, MapQuest, Leafletjs, Heroku
+
+    .text-center
+        h3 Athelite
+    .row
+        .col-sm-6
+            img(src='/images/portfolio/athelite.png', width='100%')
+        .col-sm-6
+            p.
+                The latest personal project I am working on is an application in which you can create your own workouts.
+                The application will have a database full of exercises that will allow the user to fill in their own
+                workout templates. They will be able to set workouts on a particular day, edit the weights they are
+                planning to do and have completed. Technologies involved: Android, SQL. Currently, I am working on the
+                user interface for adding exercises.
+    .text-center
+        h3 Random Activity Finder
+    .row
+        .col-sm-6
+            img(src='/images/portfolio/randomactivityfinder.png', width='100%')
+        .col-sm-6
+            p.
+                Version 1.0 is done! It took me one week to finish the app, I have learned so much, and am very
+                pleased to introduce Random Activity Finder 1.0! I am still working on improving small details here and
+                there, and will release the app on Google Play soon.
+            p.
+                Random Activity Finder takes your current location and provides the user with a random activity to do
+                around them. This application uses Yelp's API to provide users with the activity, rating, distance,
+                and other information that they may find useful. I used Android Studio to develop the application and
+                currently utilizes Google Maps to get directions from the user's current location to the activity's address.
+                Though I ran into several debugging problems, I managed to fix them thanks to the abundant Android
+                developers who have ran into the same problems I have. I have used several resources to help me get
+                started and are listed below.
+
+hr
