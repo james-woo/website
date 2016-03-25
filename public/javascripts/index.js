@@ -23,4 +23,10 @@ $(document).ready(function (){
             scrollTop: $("#projects").offset().top - 200
         }, 800);
     });
+    $("#contact-link").click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top - 200
+        }, 800);
+    });
 });

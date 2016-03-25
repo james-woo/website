@@ -50,19 +50,23 @@ block content
                 li
                   a#aboutme-link(href='#') About Me
                 li
+                  a#projects-link(href='#') Projects
+                li
                   a#resume-link(href='#') Resume
                 li
-                  a#projects-link(href='#') Projects
+                  a#contact-link(href='#') Contact
 
   #aboutme.container-fluid
     include aboutme
     br
-  #resume.container-fluid
-    include resume
-    br
   #projects.container-fluid
     include projects
     br
+  #resume.container-fluid
+    include resume
+    br
+  #contact.container-fluid
+    include contact
 
   footer.container.text-center
     .row

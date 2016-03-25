@@ -173,3 +173,8 @@ h2, h3, h4, p, a {
   display: inline-block;
   text-align:left;
 }
+
+#table-items {
+  display: inline-block;
+  text-align:left;
+}
