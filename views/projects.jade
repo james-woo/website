@@ -45,6 +45,24 @@
                 li Improved Security. For example, nothing is stopping someone from adding a ton of fake datapoints with a denial of service attack. Additionally, forms are not currently checked for data integrity (e.g. adding a url to a non-existing photo)
             p.
                 Technologies involved: MongoDB, Express, AngularJS, Node.JS, MapQuest, Leafletjs, Heroku
+    .text-center
+        h3 James' Locations
+    .row
+        .col-sm-6
+            img(src='/images/portfolio/jameslocation.png', width='100%')
+        .col-sm-6
+            a(href='james-locations.herokuapp.com') http://james-locations.herokuapp.com
+            p.
+                A little side project I was working on to learn how Spring Boot applications are built. James' Locations is a small web application which shows where
+                James has been on Earth. Each point represents a time in which James has visited that location, with a given description, time, coordinate, and photo.
+
+            p Future Implementations
+            ul
+                li Authentication. Only James should be able to edit and view these locations
+                li Images on points. Rather than boring points, they could have a small image associated with the location.
+                li Clustering. Clustering of points is easier on the eyes.
+            p.
+                Technologies involved: Spring Boot, Maven, AngularJS, MapBox, Leafletjs, Heroku
     br
     .text-center
         h3 Athelite
