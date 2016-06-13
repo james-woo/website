@@ -177,6 +177,11 @@ h2, h3, h4, p, a {
   font-weight: 400;
 }
 
+#row-items {
+   display: inline-block;
+  text-align:left;
+}
+
 #list-items {
   display: inline-block;
   text-align:left;
