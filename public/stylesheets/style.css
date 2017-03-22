@@ -78,6 +78,11 @@ a {
     background-color: #1565c0;
   }
 }
+.vertical-center { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .centered-text {
   text-align: center;
@@ -169,6 +174,10 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 4em;
+}
+
+h3 {
+margin:0;
 }
 
 h2, h3, h4, p, a {
