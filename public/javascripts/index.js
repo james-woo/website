@@ -11,10 +11,10 @@ $(document).ready(function (){
             scrollTop: $("#aboutme").offset().top - 200
         }, 800);
     });
-    $("#resume-link").click(function(e) {
+    $("#employment-link").click(function(e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $("#resume").offset().top - 200
+            scrollTop: $("#employment").offset().top - 200
         }, 800);
     });
     $("#projects-link").click(function(e) {
